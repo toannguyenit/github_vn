@@ -2,6 +2,9 @@
 Repository (Repo)   // Một cái kho, thư mục chứa dự án
 Branch              // Nhánh code
 Conflict            // Xung đột
+Local               // Máy tính của chúng ta    
+Remote              // Github
+url                 // https://github.com/toannguyenit/github_vn.git
 
 # Commands
 # git init              // Khởi tạo git, dự án có thể chạy git
@@ -24,4 +27,5 @@ Conflict            // Xung đột
     $ git branch -d {branch name}   // Xóa một branch 
 # git merge 
     $ git merge {branch name}       // Hợp nhất dữ liệu với một branch nào đó
-# 
+# git push              // Đẩy dự án từ local lên remote(GitHub)
+    $ git push {url} {branch name}
