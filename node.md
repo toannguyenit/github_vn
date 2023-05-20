@@ -15,6 +15,8 @@ Branch              // Nhánh code
     $ git log
     $ git log --oneline     // Xem lại thời điểm đã lưu một cách gọn hơn
 # git checkout          
-    $ git checkout {id commit}      // chọn thời điểm đã lưu
-    $ git checkout {branch name}    // chọn branch 
+    $ git checkout {id commit}      // chọn thời điểm đã lưu của commit
+    $ git checkout {branch name}    // chọn thời điểm hiện tại của branch  
 # git branch
+    $ git branch -b {branch name}   // Khởi tạo một branch mới
+    
