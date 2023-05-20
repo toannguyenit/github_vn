@@ -17,10 +17,11 @@ Conflict            // Xung đột
     $ git log --oneline     // Xem lại thời điểm đã lưu một cách gọn hơn
 # git checkout          
     $ git checkout {id commit}      // chọn thời điểm đã lưu của commit
-    $ git checkout {branch name}    // chọn thời điểm hiện tại của branch  
+    $ git checkout {branch name}    // chọn thời điểm hiện tại của branch 
+    $ git checkout -b {branch name} // Khởi tạo một branch mới    
 # git branch
-    $ git branch -b {branch name}   // Khởi tạo một branch mới
+    $ git branch                    // Xem danh sách branch
     $ git branch -d {branch name}   // Xóa một branch 
 # git merge 
     $ git merge {branch name}       // Hợp nhất dữ liệu với một branch nào đó
-#gi
+# 
