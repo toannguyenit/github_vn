@@ -1,0 +1,12 @@
+# Terms
+Repository (Repo) // Một cái kho, thư mục chứa dự án
+
+# Commands
+# git init              // Khởi tạo git, dự án có thể chạy git
+# git status            // Cho thấy dự án có thay đổi gì
+# git add               // Chuẩn bị lưu lại thời điểm hiện tại của dự án
+    $ git add {file name}   // Chuẩn bị Lưu lại một file
+    $ git add .             // Chuẩn bị Lưu lại tất cả những file có sự thay đổi
+# git reset             // Clear các thời điểm lưu lại của dự án
+# git commit            // Ghi chú, đặt tên cho thời điểm lưu
+    $ git commit -m '{commit content}'
