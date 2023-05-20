@@ -10,3 +10,7 @@ Repository (Repo) // Một cái kho, thư mục chứa dự án
 # git reset             // Clear các thời điểm lưu lại của dự án
 # git commit            // Ghi chú, đặt tên cho thời điểm lưu
     $ git commit -m '{commit content}'
+# git log               // Xem lại các thời điểm đã lưu
+    $ git log
+    $ git log --oneline     // Xem lại thời điểm đã lưu một cách gọn hơn
+    
