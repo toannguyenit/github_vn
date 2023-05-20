@@ -1,5 +1,6 @@
 # Terms
-Repository (Repo) // Một cái kho, thư mục chứa dự án
+Repository (Repo)   // Một cái kho, thư mục chứa dự án
+Branch              // Nhánh code
 
 # Commands
 # git init              // Khởi tạo git, dự án có thể chạy git
@@ -13,4 +14,7 @@ Repository (Repo) // Một cái kho, thư mục chứa dự án
 # git log               // Xem lại các thời điểm đã lưu
     $ git log
     $ git log --oneline     // Xem lại thời điểm đã lưu một cách gọn hơn
-    
+# git checkout          
+    $ git checkout {id commit}      // chọn thời điểm đã lưu
+    $ git checkout {branch name}    // chọn branch 
+# git branch
