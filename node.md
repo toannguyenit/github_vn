@@ -1,6 +1,7 @@
 # Terms
 Repository (Repo)   // Một cái kho, thư mục chứa dự án
 Branch              // Nhánh code
+Conflict            // Xung đột
 
 # Commands
 # git init              // Khởi tạo git, dự án có thể chạy git
@@ -19,4 +20,7 @@ Branch              // Nhánh code
     $ git checkout {branch name}    // chọn thời điểm hiện tại của branch  
 # git branch
     $ git branch -b {branch name}   // Khởi tạo một branch mới
-    
+    $ git branch -d {branch name}   // Xóa một branch 
+# git merge 
+    $ git merge {branch name}       // Hợp nhất dữ liệu với một branch nào đó
+#gi
