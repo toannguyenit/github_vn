@@ -56,4 +56,9 @@ url // https://github.com/toannguyenit/github_vn.git
 
     $ git fetch origin                   // Một lệnh trong Git được sử dụng để tải về các thay đổi mới nhất từ nhánh gốc (origin) của repository từ xa mà bạn đã được liên kết
 
+    $ git checkout -b {branch name} origin/{branch name}
+
     $ git checkout -b stagin origin/stagin // Một lệnh dùng để kéo về một branch từ remote (Ở đây branch đó tên la stagin)
+
+# git pull
+    $ git pull                          // Phải tạo một git pull request sau đó sử dụng cách này để pull
